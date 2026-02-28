@@ -16,7 +16,7 @@ export interface OutfitQuad {
 
 const { LEFT_SHOULDER, RIGHT_SHOULDER, LEFT_HIP, RIGHT_HIP,
         LEFT_KNEE, RIGHT_KNEE, LEFT_ANKLE, RIGHT_ANKLE,
-        LEFT_ELBOW, RIGHT_ELBOW, NOSE } = POSE_LANDMARKS;
+        NOSE } = POSE_LANDMARKS;
 
 /**
  * Convert normalized landmark coordinates to canvas pixel coordinates.
@@ -294,8 +294,6 @@ export function calculateBodyMetrics(
 ) {
   const ls = toCanvas(landmarks[LEFT_SHOULDER], canvasWidth, canvasHeight);
   const rs = toCanvas(landmarks[RIGHT_SHOULDER], canvasWidth, canvasHeight);
-  const lh = toCanvas(landmarks[LEFT_HIP], canvasWidth, canvasHeight);
-  const rh = toCanvas(landmarks[RIGHT_HIP], canvasWidth, canvasHeight);
 
   const shoulderMid = midpoint(landmarks[LEFT_SHOULDER], landmarks[RIGHT_SHOULDER], canvasWidth, canvasHeight);
   const hipMid = midpoint(landmarks[LEFT_HIP], landmarks[RIGHT_HIP], canvasWidth, canvasHeight);

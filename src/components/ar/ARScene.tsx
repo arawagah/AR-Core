@@ -275,7 +275,6 @@ export function ARScene({ outfits, onBack, allOutfits, onOutfitSelect }: ARScene
               return (
                 <button
                   key={outfit.id}
-                  role="listitem"
                   onClick={() => onOutfitSelect(outfit)}
                   className={`flex-shrink-0 w-16 h-16 rounded-xl overflow-hidden border-2 transition-all active:scale-95 ${
                     isActive ? 'border-[#6C5CE7] shadow-lg shadow-[#6C5CE7]/30' : 'border-white/10 glass'
