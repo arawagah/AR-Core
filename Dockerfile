@@ -70,4 +70,4 @@ ENV PORT=3000
 ENV HOSTNAME=0.0.0.0
 
 # Run database migrations then start the app
-CMD ["sh", "-c", "npx prisma migrate deploy --schema=./prisma/schema.prisma 2>/dev/null || true && node server.js"]
+CMD ["sh", "-c", "npx prisma db push --schema=./prisma/schema.prisma --accept-data-loss && node server.js"]
