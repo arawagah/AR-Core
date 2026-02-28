@@ -53,8 +53,9 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 COPY --from=builder /app/prisma ./prisma
-COPY --from=builder /app/node_modules/.prisma ./node_modules/.prisma
-COPY --from=builder /app/node_modules/@prisma ./node_modules/@prisma
+# Full node_modules needed so `prisma db push` can run at startup
+# (requires prisma CLI, @prisma/adapter-pg, pg, and Prisma's jiti TS loader)
+COPY --from=builder /app/node_modules ./node_modules
 
 # Create data directory for Railway volume mount
 RUN mkdir -p /data/assets && chown -R nextjs:nodejs /data
