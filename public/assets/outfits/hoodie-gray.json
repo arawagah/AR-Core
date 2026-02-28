@@ -1,0 +1,29 @@
+{
+  "id": "hoodie-gray",
+  "name": "Gray Hoodie",
+  "category": "TOP",
+  "type": "top",
+  "colorHex": "#7f8c8d",
+  "description": "Cozy everyday hoodie",
+  "controlPoints": {
+    "leftShoulder": [
+      45,
+      70
+    ],
+    "rightShoulder": [
+      255,
+      70
+    ],
+    "leftHip": [
+      35,
+      310
+    ],
+    "rightHip": [
+      265,
+      310
+    ]
+  },
+  "zLayer": 1,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

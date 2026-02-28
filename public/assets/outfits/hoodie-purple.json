@@ -1,0 +1,29 @@
+{
+  "id": "hoodie-purple",
+  "name": "Purple Hoodie",
+  "category": "TOP",
+  "type": "top",
+  "colorHex": "#6C5CE7",
+  "description": "Stylish purple hoodie",
+  "controlPoints": {
+    "leftShoulder": [
+      45,
+      70
+    ],
+    "rightShoulder": [
+      255,
+      70
+    ],
+    "leftHip": [
+      35,
+      310
+    ],
+    "rightHip": [
+      265,
+      310
+    ]
+  },
+  "zLayer": 1,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

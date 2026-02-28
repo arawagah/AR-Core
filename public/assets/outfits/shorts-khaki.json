@@ -1,0 +1,29 @@
+{
+  "id": "shorts-khaki",
+  "name": "Khaki Shorts",
+  "category": "BOTTOM",
+  "type": "bottom",
+  "colorHex": "#c9a96e",
+  "description": "Casual summer shorts",
+  "controlPoints": {
+    "leftHip": [
+      60,
+      30
+    ],
+    "rightHip": [
+      240,
+      30
+    ],
+    "leftKnee": [
+      65,
+      220
+    ],
+    "rightKnee": [
+      235,
+      220
+    ]
+  },
+  "zLayer": 0,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

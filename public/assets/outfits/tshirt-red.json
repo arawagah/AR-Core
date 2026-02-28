@@ -1,0 +1,29 @@
+{
+  "id": "tshirt-red",
+  "name": "Bold Red T-Shirt",
+  "category": "TOP",
+  "type": "top",
+  "colorHex": "#e74c3c",
+  "description": "Vibrant red crew neck",
+  "controlPoints": {
+    "leftShoulder": [
+      50,
+      60
+    ],
+    "rightShoulder": [
+      250,
+      60
+    ],
+    "leftHip": [
+      40,
+      300
+    ],
+    "rightHip": [
+      260,
+      300
+    ]
+  },
+  "zLayer": 1,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

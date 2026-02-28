@@ -1,0 +1,29 @@
+{
+  "id": "jacket-black",
+  "name": "Black Jacket",
+  "category": "OUTERWEAR",
+  "type": "outerwear",
+  "colorHex": "#2c3e50",
+  "description": "Classic black jacket",
+  "controlPoints": {
+    "leftShoulder": [
+      40,
+      65
+    ],
+    "rightShoulder": [
+      260,
+      65
+    ],
+    "leftHip": [
+      30,
+      310
+    ],
+    "rightHip": [
+      270,
+      310
+    ]
+  },
+  "zLayer": 2,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

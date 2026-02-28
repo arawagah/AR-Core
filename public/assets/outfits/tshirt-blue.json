@@ -1,0 +1,29 @@
+{
+  "id": "tshirt-blue",
+  "name": "Classic Blue T-Shirt",
+  "category": "TOP",
+  "type": "top",
+  "colorHex": "#3498db",
+  "description": "Casual everyday tee",
+  "controlPoints": {
+    "leftShoulder": [
+      50,
+      60
+    ],
+    "rightShoulder": [
+      250,
+      60
+    ],
+    "leftHip": [
+      40,
+      300
+    ],
+    "rightHip": [
+      260,
+      300
+    ]
+  },
+  "zLayer": 1,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

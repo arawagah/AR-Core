@@ -1,0 +1,37 @@
+{
+  "id": "pants-blue",
+  "name": "Blue Jeans",
+  "category": "BOTTOM",
+  "type": "bottom",
+  "colorHex": "#2980b9",
+  "description": "Classic blue denim",
+  "controlPoints": {
+    "leftHip": [
+      60,
+      30
+    ],
+    "rightHip": [
+      240,
+      30
+    ],
+    "leftKnee": [
+      70,
+      200
+    ],
+    "rightKnee": [
+      230,
+      200
+    ],
+    "leftAnkle": [
+      65,
+      380
+    ],
+    "rightAnkle": [
+      235,
+      380
+    ]
+  },
+  "zLayer": 0,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

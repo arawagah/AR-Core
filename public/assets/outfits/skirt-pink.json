@@ -1,0 +1,29 @@
+{
+  "id": "skirt-pink",
+  "name": "Pink Mini Skirt",
+  "category": "BOTTOM",
+  "type": "bottom",
+  "colorHex": "#e91e8c",
+  "description": "Flirty mini skirt",
+  "controlPoints": {
+    "leftHip": [
+      70,
+      25
+    ],
+    "rightHip": [
+      230,
+      25
+    ],
+    "leftAnkle": [
+      20,
+      380
+    ],
+    "rightAnkle": [
+      280,
+      380
+    ]
+  },
+  "zLayer": 0,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

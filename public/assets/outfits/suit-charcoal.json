@@ -1,0 +1,37 @@
+{
+  "id": "suit-charcoal",
+  "name": "Charcoal Suit",
+  "category": "FULL_OUTFIT",
+  "type": "full_outfit",
+  "colorHex": "#2d3436",
+  "description": "Professional charcoal suit",
+  "controlPoints": {
+    "leftShoulder": [
+      35,
+      60
+    ],
+    "rightShoulder": [
+      265,
+      60
+    ],
+    "leftHip": [
+      25,
+      220
+    ],
+    "rightHip": [
+      275,
+      220
+    ],
+    "leftAnkle": [
+      50,
+      390
+    ],
+    "rightAnkle": [
+      250,
+      390
+    ]
+  },
+  "zLayer": 1,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dress-red",
+  "name": "Red Evening Dress",
+  "category": "DRESS",
+  "type": "dress",
+  "colorHex": "#c0392b",
+  "description": "Elegant A-line dress",
+  "controlPoints": {
+    "neck": [
+      150,
+      35
+    ],
+    "leftShoulder": [
+      60,
+      60
+    ],
+    "rightShoulder": [
+      240,
+      60
+    ],
+    "leftHip": [
+      30,
+      270
+    ],
+    "rightHip": [
+      270,
+      270
+    ],
+    "leftAnkle": [
+      10,
+      390
+    ],
+    "rightAnkle": [
+      290,
+      390
+    ]
+  },
+  "zLayer": 1,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

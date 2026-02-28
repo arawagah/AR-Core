@@ -1,0 +1,2 @@
+# Prisma migrations directory
+# Run 'npm run db:migrate' with a valid DATABASE_URL to generate migrations

@@ -1,0 +1,29 @@
+{
+  "id": "jacket-navy",
+  "name": "Navy Blazer",
+  "category": "OUTERWEAR",
+  "type": "outerwear",
+  "colorHex": "#1a252f",
+  "description": "Smart casual blazer",
+  "controlPoints": {
+    "leftShoulder": [
+      40,
+      65
+    ],
+    "rightShoulder": [
+      260,
+      65
+    ],
+    "leftHip": [
+      30,
+      310
+    ],
+    "rightHip": [
+      270,
+      310
+    ]
+  },
+  "zLayer": 2,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

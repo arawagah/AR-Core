@@ -1,0 +1,29 @@
+{
+  "id": "tshirt-white",
+  "name": "White Essential Tee",
+  "category": "TOP",
+  "type": "top",
+  "colorHex": "#ecf0f1",
+  "description": "Clean white basic",
+  "controlPoints": {
+    "leftShoulder": [
+      50,
+      60
+    ],
+    "rightShoulder": [
+      250,
+      60
+    ],
+    "leftHip": [
+      40,
+      300
+    ],
+    "rightHip": [
+      260,
+      300
+    ]
+  },
+  "zLayer": 1,
+  "referenceWidth": 300,
+  "referenceHeight": 400
+}

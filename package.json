@@ -1,0 +1,43 @@
+{
+  "name": "mirrorme",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate-placeholders": "npx ts-node --esm scripts/generate-placeholders.ts",
+    "generate-icons": "npx ts-node --esm scripts/generate-icons.ts",
+    "seed": "npx ts-node --esm scripts/seed-outfits.ts",
+    "download-models": "bash scripts/download-models.sh",
+    "setup": "npm run generate-placeholders && npm run generate-icons && npm run download-models && npx prisma migrate dev --name init && npm run seed",
+    "db:migrate": "npx prisma migrate dev",
+    "db:generate": "npx prisma generate",
+    "db:studio": "npx prisma studio"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.32",
+    "@prisma/adapter-pg": "^7.4.2",
+    "@prisma/client": "^7.4.2",
+    "canvas": "^3.2.1",
+    "framer-motion": "^12.34.3",
+    "next": "14.2.35",
+    "next-pwa": "^5.6.0",
+    "pg": "^8.19.0",
+    "prisma": "^7.4.2",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/pg": "^8.18.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

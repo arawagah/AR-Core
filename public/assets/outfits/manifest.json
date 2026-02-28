@@ -1,0 +1,456 @@
+[
+  {
+    "id": "tshirt-blue",
+    "name": "Classic Blue T-Shirt",
+    "category": "TOP",
+    "type": "top",
+    "colorHex": "#3498db",
+    "description": "Casual everyday tee",
+    "controlPoints": {
+      "leftShoulder": [
+        50,
+        60
+      ],
+      "rightShoulder": [
+        250,
+        60
+      ],
+      "leftHip": [
+        40,
+        300
+      ],
+      "rightHip": [
+        260,
+        300
+      ]
+    },
+    "zLayer": 1,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "tshirt-red",
+    "name": "Bold Red T-Shirt",
+    "category": "TOP",
+    "type": "top",
+    "colorHex": "#e74c3c",
+    "description": "Vibrant red crew neck",
+    "controlPoints": {
+      "leftShoulder": [
+        50,
+        60
+      ],
+      "rightShoulder": [
+        250,
+        60
+      ],
+      "leftHip": [
+        40,
+        300
+      ],
+      "rightHip": [
+        260,
+        300
+      ]
+    },
+    "zLayer": 1,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "tshirt-white",
+    "name": "White Essential Tee",
+    "category": "TOP",
+    "type": "top",
+    "colorHex": "#ecf0f1",
+    "description": "Clean white basic",
+    "controlPoints": {
+      "leftShoulder": [
+        50,
+        60
+      ],
+      "rightShoulder": [
+        250,
+        60
+      ],
+      "leftHip": [
+        40,
+        300
+      ],
+      "rightHip": [
+        260,
+        300
+      ]
+    },
+    "zLayer": 1,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "hoodie-gray",
+    "name": "Gray Hoodie",
+    "category": "TOP",
+    "type": "top",
+    "colorHex": "#7f8c8d",
+    "description": "Cozy everyday hoodie",
+    "controlPoints": {
+      "leftShoulder": [
+        45,
+        70
+      ],
+      "rightShoulder": [
+        255,
+        70
+      ],
+      "leftHip": [
+        35,
+        310
+      ],
+      "rightHip": [
+        265,
+        310
+      ]
+    },
+    "zLayer": 1,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "hoodie-purple",
+    "name": "Purple Hoodie",
+    "category": "TOP",
+    "type": "top",
+    "colorHex": "#6C5CE7",
+    "description": "Stylish purple hoodie",
+    "controlPoints": {
+      "leftShoulder": [
+        45,
+        70
+      ],
+      "rightShoulder": [
+        255,
+        70
+      ],
+      "leftHip": [
+        35,
+        310
+      ],
+      "rightHip": [
+        265,
+        310
+      ]
+    },
+    "zLayer": 1,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "jacket-black",
+    "name": "Black Jacket",
+    "category": "OUTERWEAR",
+    "type": "outerwear",
+    "colorHex": "#2c3e50",
+    "description": "Classic black jacket",
+    "controlPoints": {
+      "leftShoulder": [
+        40,
+        65
+      ],
+      "rightShoulder": [
+        260,
+        65
+      ],
+      "leftHip": [
+        30,
+        310
+      ],
+      "rightHip": [
+        270,
+        310
+      ]
+    },
+    "zLayer": 2,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "jacket-navy",
+    "name": "Navy Blazer",
+    "category": "OUTERWEAR",
+    "type": "outerwear",
+    "colorHex": "#1a252f",
+    "description": "Smart casual blazer",
+    "controlPoints": {
+      "leftShoulder": [
+        40,
+        65
+      ],
+      "rightShoulder": [
+        260,
+        65
+      ],
+      "leftHip": [
+        30,
+        310
+      ],
+      "rightHip": [
+        270,
+        310
+      ]
+    },
+    "zLayer": 2,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "pants-black",
+    "name": "Black Trousers",
+    "category": "BOTTOM",
+    "type": "bottom",
+    "colorHex": "#2c3e50",
+    "description": "Slim-fit black pants",
+    "controlPoints": {
+      "leftHip": [
+        60,
+        30
+      ],
+      "rightHip": [
+        240,
+        30
+      ],
+      "leftKnee": [
+        70,
+        200
+      ],
+      "rightKnee": [
+        230,
+        200
+      ],
+      "leftAnkle": [
+        65,
+        380
+      ],
+      "rightAnkle": [
+        235,
+        380
+      ]
+    },
+    "zLayer": 0,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "pants-blue",
+    "name": "Blue Jeans",
+    "category": "BOTTOM",
+    "type": "bottom",
+    "colorHex": "#2980b9",
+    "description": "Classic blue denim",
+    "controlPoints": {
+      "leftHip": [
+        60,
+        30
+      ],
+      "rightHip": [
+        240,
+        30
+      ],
+      "leftKnee": [
+        70,
+        200
+      ],
+      "rightKnee": [
+        230,
+        200
+      ],
+      "leftAnkle": [
+        65,
+        380
+      ],
+      "rightAnkle": [
+        235,
+        380
+      ]
+    },
+    "zLayer": 0,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "shorts-khaki",
+    "name": "Khaki Shorts",
+    "category": "BOTTOM",
+    "type": "bottom",
+    "colorHex": "#c9a96e",
+    "description": "Casual summer shorts",
+    "controlPoints": {
+      "leftHip": [
+        60,
+        30
+      ],
+      "rightHip": [
+        240,
+        30
+      ],
+      "leftKnee": [
+        65,
+        220
+      ],
+      "rightKnee": [
+        235,
+        220
+      ]
+    },
+    "zLayer": 0,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "dress-red",
+    "name": "Red Evening Dress",
+    "category": "DRESS",
+    "type": "dress",
+    "colorHex": "#c0392b",
+    "description": "Elegant A-line dress",
+    "controlPoints": {
+      "neck": [
+        150,
+        35
+      ],
+      "leftShoulder": [
+        60,
+        60
+      ],
+      "rightShoulder": [
+        240,
+        60
+      ],
+      "leftHip": [
+        30,
+        270
+      ],
+      "rightHip": [
+        270,
+        270
+      ],
+      "leftAnkle": [
+        10,
+        390
+      ],
+      "rightAnkle": [
+        290,
+        390
+      ]
+    },
+    "zLayer": 1,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "dress-navy",
+    "name": "Navy Midi Dress",
+    "category": "DRESS",
+    "type": "dress",
+    "colorHex": "#1a3a5c",
+    "description": "Versatile midi length",
+    "controlPoints": {
+      "neck": [
+        150,
+        35
+      ],
+      "leftShoulder": [
+        60,
+        60
+      ],
+      "rightShoulder": [
+        240,
+        60
+      ],
+      "leftHip": [
+        30,
+        270
+      ],
+      "rightHip": [
+        270,
+        270
+      ],
+      "leftAnkle": [
+        10,
+        390
+      ],
+      "rightAnkle": [
+        290,
+        390
+      ]
+    },
+    "zLayer": 1,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "skirt-pink",
+    "name": "Pink Mini Skirt",
+    "category": "BOTTOM",
+    "type": "bottom",
+    "colorHex": "#e91e8c",
+    "description": "Flirty mini skirt",
+    "controlPoints": {
+      "leftHip": [
+        70,
+        25
+      ],
+      "rightHip": [
+        230,
+        25
+      ],
+      "leftAnkle": [
+        20,
+        380
+      ],
+      "rightAnkle": [
+        280,
+        380
+      ]
+    },
+    "zLayer": 0,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  },
+  {
+    "id": "suit-charcoal",
+    "name": "Charcoal Suit",
+    "category": "FULL_OUTFIT",
+    "type": "full_outfit",
+    "colorHex": "#2d3436",
+    "description": "Professional charcoal suit",
+    "controlPoints": {
+      "leftShoulder": [
+        35,
+        60
+      ],
+      "rightShoulder": [
+        265,
+        60
+      ],
+      "leftHip": [
+        25,
+        220
+      ],
+      "rightHip": [
+        275,
+        220
+      ],
+      "leftAnkle": [
+        50,
+        390
+      ],
+      "rightAnkle": [
+        250,
+        390
+      ]
+    },
+    "zLayer": 1,
+    "referenceWidth": 300,
+    "referenceHeight": 400
+  }
+]
