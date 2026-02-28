@@ -12,11 +12,9 @@ export async function GET() {
       database: 'connected',
     });
   } catch {
-    // Return ok even if DB is not yet ready (allows Railway healthcheck to pass during startup)
-    return NextResponse.json({
-      status: 'ok',
-      timestamp: new Date().toISOString(),
-      database: 'unavailable',
-    });
+    return NextResponse.json(
+      { status: 'error', timestamp: new Date().toISOString(), database: 'unavailable' },
+      { status: 503 },
+    );
   }
 }

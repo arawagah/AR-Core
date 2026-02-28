@@ -53,8 +53,8 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 COPY --from=builder /app/prisma ./prisma
-# Full node_modules needed so `prisma db push` can run at startup
-# (requires prisma CLI, @prisma/adapter-pg, pg, and Prisma's jiti TS loader)
+COPY --from=builder /app/scripts ./scripts
+# Full node_modules needed so `prisma db push` + `tsx` seed can run at startup
 COPY --from=builder /app/node_modules ./node_modules
 
 # Create data directory for Railway volume mount
@@ -71,4 +71,4 @@ ENV PORT=3000
 ENV HOSTNAME=0.0.0.0
 
 # Run database migrations then start the app
-CMD ["sh", "-c", "npx prisma db push --schema=./prisma/schema.prisma --accept-data-loss && node server.js"]
+CMD ["sh", "-c", "npx prisma db push --schema=./prisma/schema.prisma --accept-data-loss && npx tsx scripts/seed-outfits.ts && node server.js"]

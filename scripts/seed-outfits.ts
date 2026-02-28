@@ -1,13 +1,18 @@
 /**
  * Seeds the database with outfit metadata from the generated manifest.
  * Run after generate-placeholders.ts.
+ * Idempotent: skips seeding if outfits already exist.
  */
 
 import { PrismaClient } from '@prisma/client';
+import { PrismaPg } from '@prisma/adapter-pg';
+import { Pool } from 'pg';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const prisma = new PrismaClient();
+const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+const adapter = new PrismaPg(pool);
+const prisma = new PrismaClient({ adapter });
 
 interface OutfitMeta {
   id: string;
@@ -29,12 +34,15 @@ async function seed() {
     process.exit(1);
   }
 
+  const existing = await prisma.outfit.count();
+  if (existing > 0) {
+    console.log(`Database already has ${existing} outfits — skipping seed.`);
+    return;
+  }
+
   const outfits: OutfitMeta[] = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
 
   console.log(`Seeding ${outfits.length} outfits...`);
-
-  // Clear existing outfits
-  await prisma.outfit.deleteMany();
 
   for (const outfit of outfits) {
     const controlData = {
@@ -72,4 +80,5 @@ seed()
   })
   .finally(async () => {
     await prisma.$disconnect();
+    await pool.end();
   });
